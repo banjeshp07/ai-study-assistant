@@ -24,7 +24,7 @@ A robust, interactive React application built for the Flam frontend engineering 
 ---
 
 ## 📁 Project Structure
-
+```text
 ai-study-assistant/
 │
 ├── server/                 # Backend proxy server
