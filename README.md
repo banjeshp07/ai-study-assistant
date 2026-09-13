@@ -59,25 +59,33 @@ To run this project locally, follow these steps:
 * A valid Gemini API Key from Google AI Studio.
 
 ### 1. Clone the Repository
+```text
 git clone https://github.com/your-username/ai-study-assistant.git
 cd ai-study-assistant
+```
 
 ### 2. Configure Environment Variables
 Create a `.env` file in the root directory and add your backend configuration:
+```text
 PORT=5000
 GEMINI_API_KEY=your_gemini_api_key_here
+```
 
 ### 3. Install Dependencies & Run
 You need to run both the backend server and the frontend client.
 
 * **Start Backend Server**:
+```text
 cd server
 npm install
 npm start
+```
 
 * **Start Frontend Client** (in a separate terminal tab):
+```text
 npm install
 npm run dev
+```
 
 Open your browser and navigate to `http://localhost:5173`.
 
