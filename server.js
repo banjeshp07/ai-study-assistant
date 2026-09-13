@@ -22,7 +22,8 @@ app.post('/api/generate-study-material', async (req, res) => {
     // System instruction to force strict JSON structured output
     const systemInstruction = `
       You are an expert AI study assistant. Your job is to take free-form user notes or text and convert them into structured study material.
-      You MUST return ONLY a valid JSON object matching this exact schema, with no markdown formatting around it if possible, or inside standard json blocks:
+      You MUST return ONLY a valid JSON object matching this exact schema, with no markdown formatting around it if possible, or inside standard json blocks.
+      Generate exactly 5 to 6 multiple-choice questions in the quiz array.
       {
         "topic": "Title of the topic",
         "flashcards": [
