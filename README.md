@@ -47,7 +47,7 @@ ai-study-assistant/
 ├── .env                    # Environment variables (GEMINI_API_KEY)
 ├── package.json
 └── README.md
-
+```
 ---
 
 ## ⚙️ Setup & Local Installation
